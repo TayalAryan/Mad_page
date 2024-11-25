@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/billNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Bill Name"
+        android:padding="8dp"  />
+
+    <EditText
+        android:id="@+id/totalAmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Total Amount"
+        android:inputType="numberDecimal"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/addParticipantsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Participants" />
+
+    <Button
+        android:id="@+id/saveBillButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Bill"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

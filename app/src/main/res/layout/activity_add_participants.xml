@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/participantNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Participant Name"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/addParticipantButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Participant" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/participantsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Amount Owed"
+        android:inputType="numberDecimal"
+        android:padding="8dp" />
+    <Button
+        android:id="@+id/calculateSharesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Split now" />
+
+</LinearLayout>
